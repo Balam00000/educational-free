@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="addit">
+        <h1>Admin Panel - Enrolled Students</h1>
+        <button onclick ="change()">☀️</button>
+<!--        <button onclick ="change()">☀️</button>-->
+    </div>
+
+    <div class="top-right-buttons">
+        <button onclick="add()">Add Course</button>
+<!--    <button onclick="trigger()">Add Course</button>-->
+        </div>
+</div>
+<div>
+    <br></br>
+    <br></br>
+
+</div>
+<div class="table-container">
+<table>
+    <thead>
+    <tr>
+        <th>S.No</th>
+        <th>Student Name</th>
+        <th>Course Name</th>
+        <th>Student Email</th>
+        <th>Action</th>
+
+    </tr>
+    </thead>
+
+
+    <tbody id="student-list"></tbody>
+    <a href="index.html" class="back-link">Back to Courses</a>
+</table>
+</div>
+<div>
+    <br></br>
+    <br></br>
+
+</div>
+
+<a href="index.html" class="back-link">Back to Courses</a>
+
+<script src="script.js"></script>
+
+</body>
+</html>

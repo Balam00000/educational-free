@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Panel - Courses</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="addit">
+    <h1>Available Courses</h1>
+        <input type="search" id="sear-ch" placeholder="Search">
+
+    <button onclick="search()">Search</button>
+        <button onclick ="change()">☀️</button>
+    </div>
+    <div class="top-right-buttons">
+        <button onclick="navigateToHome()">Home</button>
+        <button onclick="logout()">Logout</button>
+    </div>
+</div>
+<div>
+    <br></br>
+    <br></br>
+    <br></br>
+</div>
+    <div class="course-container" id="courses">
+
+        <!-- Courses will be loaded dynamically from script.js -->
+    </div>
+<div>
+<br></br>
+<br></br>
+<br></br>
+</div>
+<!-- Home & Logout Buttons -->
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
+

@@ -1,0 +1,5 @@
+com\example\Projectcourse\Model\CourseModel.class
+com\example\Projectcourse\ProjectCourse1Application.class
+com\example\Projectcourse\Service\CourseService.class
+com\example\Projectcourse\Controller\CourseController.class
+com\example\Projectcourse\Repository\CourseRepository.class
